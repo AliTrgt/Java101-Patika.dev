@@ -5,7 +5,7 @@ public class SecondSolution {
     public static void main(String[] args){
     Scanner input = new Scanner(System.in);
     System.out.println("Baslangic Parasını Giriniz : ");
-    int startMoney = input.nextInt();
+    double startMoney = input.nextDouble();
         System.out.println("KDV'siz Fiyat = "+startMoney);
         double totalMoney;
         double amount;
